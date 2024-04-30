@@ -15,3 +15,4 @@ C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.pdb
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.genruntimeconfig.cache
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\ref\TarefAgil.Infa.dll
+C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.sourcelink.json

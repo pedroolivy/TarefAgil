@@ -138,3 +138,4 @@ C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil\obj\Debug\net8.0\re
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil\obj\Debug\net8.0\TarefAgil.pdb
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil\obj\Debug\net8.0\TarefAgil.genruntimeconfig.cache
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil\obj\Debug\net8.0\ref\TarefAgil.dll
+C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil\obj\Debug\net8.0\TarefAgil.sourcelink.json

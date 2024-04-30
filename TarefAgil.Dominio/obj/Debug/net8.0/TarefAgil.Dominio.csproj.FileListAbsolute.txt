@@ -12,3 +12,4 @@ C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Dominio\obj\Debug\n
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.pdb
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.genruntimeconfig.cache
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\ref\TarefAgil.Dominio.dll
+C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.sourcelink.json
