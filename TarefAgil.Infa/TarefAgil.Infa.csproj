@@ -23,4 +23,9 @@
     <ProjectReference Include="..\TarefAgil.Dominio\TarefAgil.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Servicos\" />
+    <Folder Include="Repositorios\" />
+  </ItemGroup>
+
 </Project>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TarefAgil.Dominio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b17895db5dc83944555f092d40fbab5724e63c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TarefAgil.Dominio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TarefAgil.Dominio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
