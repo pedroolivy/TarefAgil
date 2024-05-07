@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\TarefAgil.Dominio\TarefAgil.Dominio.csproj" />
     <ProjectReference Include="..\TarefAgil.Infa\TarefAgil.Infa.csproj" />
   </ItemGroup>
