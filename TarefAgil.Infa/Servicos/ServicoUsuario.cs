@@ -11,29 +11,40 @@ namespace TarefAgil.Infa.Servicos
             _repositorioUsuario = repositorioUsuario;
         }
 
-        public Usuario AdicionarUsuario(Usuario usuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Usuario AtualizarUsuario(Usuario usuario)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Usuario DeletarUsuario(int Id)
-        {
-            throw new NotImplementedException();
-        }
-
         public List<Usuario> ObterTodosUsuarios()
         {
-            throw new NotImplementedException();
+            var usuarios = _repositorioUsuario.GetAll();
+
+            return usuarios;
         }
 
         public Usuario ObterUsuario(int Id)
         {
-            throw new NotImplementedException();
+            var usuario = _repositorioUsuario.GetById(Id)
+                ?? throw new Exception("Usuário não encontrado");
+                
+            return usuario;
         }
+
+        public void AdicionarUsuario(Usuario usuario)
+        {
+            _repositorioUsuario.Add(usuario);
+        }
+
+        public void AtualizarUsuario(Usuario usuario)
+        {
+            _repositorioUsuario.Update(usuario);
+        }
+
+        public void DeletarUsuario(int Id)
+        {
+            var usuarioDoBanco = _repositorioUsuario.GetById(Id);
+
+            if (usuarioDoBanco == null)
+                throw new Exception("Não existe esse usuário");
+
+            _repositorioUsuario.Delete(usuarioDoBanco);
+        }
+        
     }
 }

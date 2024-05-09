@@ -6,8 +6,8 @@ namespace TarefAgil.Dominio.Interfaces
     {
         List<Usuario> GetAll();
         Usuario GetById(int Id);
-        Usuario Add(Usuario usuario);
-        Usuario Update(Usuario usuario);
-        Usuario Delete(int Id);
+        void Add(Usuario usuario);
+        void Update(Usuario usuario);
+        void Delete(Usuario usuario);
     }
 }

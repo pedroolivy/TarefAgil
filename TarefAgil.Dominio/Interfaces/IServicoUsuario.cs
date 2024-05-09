@@ -6,8 +6,8 @@ namespace TarefAgil.Dominio.Interfaces
     {
         List<Usuario> ObterTodosUsuarios();
         Usuario ObterUsuario(int Id);
-        Usuario AdicionarUsuario(Usuario usuario);
-        Usuario AtualizarUsuario(Usuario usuario);
-        Usuario DeletarUsuario(int Id);
+        void AdicionarUsuario(Usuario usuario);
+        void AtualizarUsuario(Usuario usuario);
+        void DeletarUsuario(int Id);
     }
 }

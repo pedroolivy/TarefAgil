@@ -1,33 +1,42 @@
 ﻿using TarefAgil.Dominio.Interfaces;
 using TarefAgil.Dominio.Modelos;
+using TarefAgil.Infa.Dados;
 
 namespace TarefAgil.Infa.Repositorios
 {
     public class TarefasRepositorio : IRepositorioTarefas
     {
-        public Tarefas Add(Tarefas tarefa)
+        private readonly AppDbContext _appDbContext;
+        public TarefasRepositorio(AppDbContext appDbContext)
         {
-            throw new NotImplementedException();
-        }
-
-        public Tarefas Delete(int Id)
-        {
-            throw new NotImplementedException();
+            _appDbContext = appDbContext;
         }
 
         public List<Tarefas> GetAll()
         {
-            throw new NotImplementedException();
+             return _appDbContext.Tarefas.ToList();
         }
 
         public Tarefas GetById(int Id)
         {
-            throw new NotImplementedException();
+            return _appDbContext.Tarefas.FirstOrDefault(x => x.Id == Id);
         }
 
-        public Tarefas Update(Tarefas tarefa)
+        public void Add(Tarefas tarefa)
         {
-            throw new NotImplementedException();
+            _appDbContext.Add(tarefa);
+            _appDbContext.SaveChanges();
+        }
+        public void Update(Tarefas tarefa)
+        {
+            _appDbContext.Update(tarefa);
+            _appDbContext.SaveChanges();
+        }
+
+        public void Delete(int Id)
+        {
+            _appDbContext.Remove(Id);
+            _appDbContext.SaveChanges();
         }
     }
 }

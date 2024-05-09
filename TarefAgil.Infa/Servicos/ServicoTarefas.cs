@@ -1,5 +1,6 @@
 ﻿using TarefAgil.Dominio.Interfaces;
 using TarefAgil.Dominio.Modelos;
+using System.Data.SqlTypes;
 
 namespace TarefAgil.Infa.Servicos
 {
@@ -10,30 +11,39 @@ namespace TarefAgil.Infa.Servicos
         {
             _repositorioTarefas = repositorioTarefas;
         }
-
-        public Tarefas AdicionarTarefa(Tarefas tarefa)
+        public List<Tarefas> ObterTodasTarefas()
         {
-            throw new NotImplementedException();
-        }
+            var tarefas = _repositorioTarefas.GetAll();
 
-        public Tarefas AtualizarTarefa(Tarefas tarefa)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Tarefas DeletarTarefa(int Id)
-        {
-            throw new NotImplementedException();
+            return tarefas;
         }
 
         public Tarefas ObterTarefa(int Id)
         {
-            throw new NotImplementedException();
+            var tarefa = _repositorioTarefas.GetById(Id)
+                ?? throw new Exception("A tarefa não foi encontrada.");
+
+            return tarefa;
         }
 
-        public List<Tarefas> ObterTodasTarefas()
+        public void AdicionarTarefa(Tarefas tarefa)
         {
-            throw new NotImplementedException();
+            _repositorioTarefas.Add(tarefa);
+        }
+
+        public void AtualizarTarefa(Tarefas tarefa)
+        {
+            _repositorioTarefas.Update(tarefa);
+        }
+
+        public void DeletarTarefa(int Id)
+        {
+            var tarefaDoBanco = _repositorioTarefas.GetById(Id);
+
+            if (tarefaDoBanco == null)
+                throw new Exception("Essa tarefa não existe");
+
+            _repositorioTarefas.Delete(tarefaDoBanco.Id);
         }
     }
 }

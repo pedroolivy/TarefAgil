@@ -4,7 +4,7 @@ using TarefAgil.Dominio.Modelos;
 
 namespace TarefAgil.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/tarefas")]
     [ApiController]
     public class TarefasController : ControllerBase
     {
@@ -18,30 +18,40 @@ namespace TarefAgil.Controllers
         [HttpGet("ObterTodasTarefas")]
         public ActionResult ObterTodos() 
         {
-            return Ok("Oi´s");
+            var tarefas = _servicoTarefas.ObterTodasTarefas();
+
+            return Ok(tarefas);
         }
 
         [HttpGet("ObterTarefa/{Id}")]
         public ActionResult Obter(int Id)
         {
-            return Ok("Oi");
+            var tarefa = _servicoTarefas.ObterTarefa(Id);
+
+            return Ok(tarefa);
         }
 
         [HttpPost("AdicionarTarefa")]
         public ActionResult Adicionar([FromBody] Tarefas terafa)
         {
-            return Created("Oi", terafa);
+            _servicoTarefas.AdicionarTarefa(terafa);
+
+            return Created("Adicionada",terafa);
         }
 
         [HttpPut("EditarTarefa")]
         public ActionResult Editar([FromBody] Tarefas terafa)
         {
+            _servicoTarefas.AtualizarTarefa(terafa);
+
             return Ok(terafa);
         }
 
         [HttpDelete("DeletarTarefa/{Id}")]
         public ActionResult Deletar(int Id)
         {
+            _servicoTarefas.DeletarTarefa(Id);
+
             return NoContent();
         }
     }

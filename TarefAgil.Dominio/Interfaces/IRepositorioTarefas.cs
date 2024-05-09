@@ -6,8 +6,8 @@ namespace TarefAgil.Dominio.Interfaces
     {
         List<Tarefas> GetAll();
         Tarefas GetById(int Id);
-        Tarefas Add(Tarefas tarefa);
-        Tarefas Update(Tarefas tarefa);
-        Tarefas Delete(int Id);
+        void Add(Tarefas tarefa);
+        void Update(Tarefas tarefa);
+        void Delete(int Id);
     }
 }

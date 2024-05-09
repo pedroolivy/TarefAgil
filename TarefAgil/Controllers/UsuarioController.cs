@@ -4,7 +4,7 @@ using TarefAgil.Dominio.Modelos;
 
 namespace TarefAgil.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/usuario")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
@@ -19,30 +19,40 @@ namespace TarefAgil.Controllers
         [HttpGet("ObterTodosUsuarios")]
         public ActionResult ObterTodos()
         {
-            return Ok("Oi´s");
+            var usuarios = _servicoUsuario.ObterTodosUsuarios();
+
+            return Ok(usuarios);
         }
 
         [HttpGet("ObterUsuario/{Id}")]
         public ActionResult Obter(int Id)
         {
-            return Ok("Oi");
+            var usuario = _servicoUsuario.ObterUsuario(Id);
+
+            return Ok(usuario);
         }
 
         [HttpPost("AdicionarUsuario")]
-        public ActionResult Adicionar([FromBody] Tarefas terafa)
+        public ActionResult Adicionar([FromBody] Usuario terafa)
         {
-            return Created("Oi", terafa);
+            _servicoUsuario.AdicionarUsuario(terafa);
+
+            return Created("Adicionado", terafa);
         }
 
         [HttpPut("EditarUsuario")]
-        public ActionResult Editar([FromBody] Tarefas terafa)
+        public ActionResult Editar([FromBody] Usuario terafa)
         {
+            _servicoUsuario.AtualizarUsuario(terafa);
+
             return Ok(terafa);
         }
 
         [HttpDelete("DeletarUsuario/{Id}")]
         public ActionResult Deletar(int Id)
         {
+            _servicoUsuario.DeletarUsuario(Id);
+
             return NoContent();
         }
 

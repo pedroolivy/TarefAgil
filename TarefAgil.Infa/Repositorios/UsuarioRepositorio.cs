@@ -1,33 +1,43 @@
 ﻿using TarefAgil.Dominio.Interfaces;
 using TarefAgil.Dominio.Modelos;
+using TarefAgil.Infa.Dados;
 
 namespace TarefAgil.Infa.Repositorios
 {
     public class UsuarioRepositorio : IRepositorioUsuario
     {
-        public Usuario Add(Usuario usuario)
+        private readonly AppDbContext _appDbContext;
+        public UsuarioRepositorio(AppDbContext appDbContext)
         {
-            throw new NotImplementedException();
-        }
-
-        public Usuario Delete(int Id)
-        {
-            throw new NotImplementedException();
+            _appDbContext = appDbContext;
         }
 
         public List<Usuario> GetAll()
         {
-            throw new NotImplementedException();
+            return _appDbContext.Usuario.ToList();
         }
 
         public Usuario GetById(int Id)
         {
-            throw new NotImplementedException();
+            return _appDbContext.Usuario.FirstOrDefault(x => x.Id == Id);
         }
 
-        public Usuario Update(Usuario usuario)
+        public void Add(Usuario usuario)
         {
-            throw new NotImplementedException();
+            _appDbContext.Add(usuario);
+            _appDbContext.SaveChanges();
+        }
+
+        public void Update(Usuario usuario)
+        {
+            _appDbContext.Update(usuario);
+            _appDbContext.SaveChanges();
+        }
+
+        public void Delete(Usuario usuario)
+        {
+            _appDbContext.Remove(usuario);
+            _appDbContext.SaveChanges();
         }
     }
 }
