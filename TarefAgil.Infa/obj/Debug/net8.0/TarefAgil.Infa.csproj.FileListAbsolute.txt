@@ -16,3 +16,21 @@ C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.pdb
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.genruntimeconfig.cache
 C:\Users\Pedro\Desktop\projeto\TarefAgil\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\ref\TarefAgil.Infa.dll
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\bin\Debug\net8.0\TarefAgil.Infa.deps.json
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\bin\Debug\net8.0\TarefAgil.Infa.runtimeconfig.json
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\bin\Debug\net8.0\TarefAgil.Infa.dll
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\bin\Debug\net8.0\TarefAgil.Infa.pdb
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\bin\Debug\net8.0\TarefAgil.Dominio.dll
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\bin\Debug\net8.0\TarefAgil.Dominio.pdb
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.sourcelink.json
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgi.08C30F7E.Up2Date
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.dll
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\refint\TarefAgil.Infa.dll
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.pdb
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\TarefAgil.Infa.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Infa\obj\Debug\net8.0\ref\TarefAgil.Infa.dll

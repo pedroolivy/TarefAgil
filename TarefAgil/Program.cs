@@ -1,8 +1,11 @@
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using TarefAgil.Dominio.Interfaces;
+using TarefAgil.Dominio.Modelos;
 using TarefAgil.Infa.Dados;
 using TarefAgil.Infa.Repositorios;
 using TarefAgil.Infa.Servicos;
+using TarefAgil.Validacoes;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +21,8 @@ builder.Services.AddScoped<IServicoUsuario, ServicoUsuario>();
 
 builder.Services.AddScoped<IRepositorioTarefas, TarefasRepositorio>();
 builder.Services.AddScoped<IRepositorioUsuario, UsuarioRepositorio>();
+
+builder.Services.AddScoped<IValidator<Tarefas>, ValidadorTarefa>();
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>

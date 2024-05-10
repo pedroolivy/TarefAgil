@@ -1,15 +1,17 @@
 ﻿using TarefAgil.Dominio.Interfaces;
 using TarefAgil.Dominio.Modelos;
-using System.Data.SqlTypes;
+using FluentValidation;
 
 namespace TarefAgil.Infa.Servicos
 {
     public class ServicoTarefas : IServicoTarefas
     {
         private readonly IRepositorioTarefas _repositorioTarefas;
-        public ServicoTarefas(IRepositorioTarefas repositorioTarefas)
+        private readonly IValidator<Tarefas> _validator;
+        public ServicoTarefas(IRepositorioTarefas repositorioTarefas, IValidator<Tarefas> validator)
         {
             _repositorioTarefas = repositorioTarefas;
+            _validator = validator;
         }
         public List<Tarefas> ObterTodasTarefas()
         {
@@ -28,11 +30,21 @@ namespace TarefAgil.Infa.Servicos
 
         public void AdicionarTarefa(Tarefas tarefa)
         {
+            var Mensagem = _validator.Validate(tarefa);
+
+            if(!Mensagem.IsValid)
+                throw new Exception(Mensagem.ToString());
+
             _repositorioTarefas.Add(tarefa);
         }
 
         public void AtualizarTarefa(Tarefas tarefa)
         {
+            var Mensagem = _validator.Validate(tarefa);
+
+            if (!Mensagem.IsValid)
+                throw new Exception(Mensagem.ToString());
+
             _repositorioTarefas.Update(tarefa);
         }
 
