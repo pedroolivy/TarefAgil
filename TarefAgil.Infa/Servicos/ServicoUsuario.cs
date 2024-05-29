@@ -1,4 +1,5 @@
-﻿using TarefAgil.Dominio.Interfaces;
+﻿using FluentValidation;
+using TarefAgil.Dominio.Interfaces;
 using TarefAgil.Dominio.Modelos;
 
 namespace TarefAgil.Infa.Servicos
@@ -6,9 +7,11 @@ namespace TarefAgil.Infa.Servicos
     public class ServicoUsuario : IServicoUsuario
     {
         private readonly IRepositorioUsuario _repositorioUsuario;
-        public ServicoUsuario(IRepositorioUsuario repositorioUsuario)
+        private readonly IValidator<Usuario> _validator;
+        public ServicoUsuario(IRepositorioUsuario repositorioUsuario, IValidator<Usuario> validator)
         {
             _repositorioUsuario = repositorioUsuario;
+            _validator = validator;
         }
 
         public List<Usuario> ObterTodosUsuarios()
@@ -28,11 +31,21 @@ namespace TarefAgil.Infa.Servicos
 
         public void AdicionarUsuario(Usuario usuario)
         {
+            var mensagem = _validator.Validate(usuario);
+
+            if (!mensagem.IsValid)
+                throw new Exception(mensagem.ToString());
+
             _repositorioUsuario.Add(usuario);
         }
 
         public void AtualizarUsuario(Usuario usuario)
         {
+            var mensagem = _validator.Validate(usuario);
+
+            if (!mensagem.IsValid)
+                throw new Exception(mensagem.ToString());
+
             _repositorioUsuario.Update(usuario);
         }
 

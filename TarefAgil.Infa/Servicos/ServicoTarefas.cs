@@ -28,6 +28,14 @@ namespace TarefAgil.Infa.Servicos
             return tarefa;
         }
 
+        public List<Tarefas> ObterPorUsuario(int UsuarioId)
+        {
+            var tarefas = _repositorioTarefas.ObterPorUsuario(UsuarioId)
+                ?? throw new Exception("Não existe tarefa para esse usuário");
+
+            return tarefas;
+        }
+
         public void AdicionarTarefa(Tarefas tarefa)
         {
             var Mensagem = _validator.Validate(tarefa);

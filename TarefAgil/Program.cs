@@ -23,6 +23,7 @@ builder.Services.AddScoped<IRepositorioTarefas, TarefasRepositorio>();
 builder.Services.AddScoped<IRepositorioUsuario, UsuarioRepositorio>();
 
 builder.Services.AddScoped<IValidator<Tarefas>, ValidadorTarefa>();
+builder.Services.AddScoped<IValidator<Usuario>, ValidadorUsuario>();
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>

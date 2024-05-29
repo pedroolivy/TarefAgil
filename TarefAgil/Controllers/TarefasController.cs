@@ -31,6 +31,14 @@ namespace TarefAgil.Controllers
             return Ok(tarefa);
         }
 
+        [HttpGet("ObterPorUsuario/{UsuarioId}")]
+        public ActionResult ObterPorUsuario(int UsuarioId)
+        {
+            var tarefa = _servicoTarefas.ObterPorUsuario(UsuarioId);
+
+            return Ok(tarefa);
+        }
+
         [HttpPost("AdicionarTarefa")]
         public ActionResult Adicionar([FromBody] Tarefas terafa)
         {

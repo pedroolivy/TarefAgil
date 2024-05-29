@@ -4681,11 +4681,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil\\TarefAgil.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil\\TarefAgil.csproj",
       "projectName": "TarefAgil",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil\\TarefAgil.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil\\TarefAgil.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4702,11 +4702,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj"
             }
           }
         }

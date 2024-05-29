@@ -22,6 +22,11 @@ namespace TarefAgil.Infa.Repositorios
             return _appDbContext.Tarefas.FirstOrDefault(x => x.Id == Id);
         }
 
+        public List<Tarefas> ObterPorUsuario(int UsuarioId)
+        {
+            return _appDbContext.Tarefas.Where(x => x.UsuarioId == UsuarioId).ToList();
+        }
+
         public void Add(Tarefas tarefa)
         {
             _appDbContext.Add(tarefa);

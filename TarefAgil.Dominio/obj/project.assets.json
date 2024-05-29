@@ -4112,11 +4112,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj",
       "projectName": "TarefAgil.Dominio",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\Nova pasta\\TarefAgil\\TarefAgil.Dominio\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
