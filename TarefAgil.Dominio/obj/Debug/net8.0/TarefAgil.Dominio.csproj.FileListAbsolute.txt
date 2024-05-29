@@ -28,18 +28,3 @@ C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Dominio\obj\Debu
 C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.pdb
 C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\Desktop\Nova pasta\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\ref\TarefAgil.Dominio.dll
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\bin\Debug\net8.0\TarefAgil.Dominio.deps.json
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\bin\Debug\net8.0\TarefAgil.Dominio.runtimeconfig.json
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\bin\Debug\net8.0\TarefAgil.Dominio.dll
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\bin\Debug\net8.0\TarefAgil.Dominio.pdb
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.csproj.AssemblyReference.cache
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.AssemblyInfoInputs.cache
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.AssemblyInfo.cs
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.sourcelink.json
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.dll
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\refint\TarefAgil.Dominio.dll
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.pdb
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\TarefAgil.Dominio.genruntimeconfig.cache
-C:\Users\Usuario\Desktop\Desktop\ProjetosPessoais\TarefAgil\TarefAgil.Dominio\obj\Debug\net8.0\ref\TarefAgil.Dominio.dll

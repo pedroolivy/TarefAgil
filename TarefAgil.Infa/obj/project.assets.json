@@ -4242,9 +4242,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj",
-      "projectName": "TarefAgil.Infa",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj",
+      "projectName": "TarefAgil.Infra",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\obj\\",
       "projectStyle": "PackageReference",

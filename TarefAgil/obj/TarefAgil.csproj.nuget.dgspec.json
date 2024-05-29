@@ -86,12 +86,12 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj",
-        "projectName": "TarefAgil.Infa",
-        "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj",
+        "projectName": "TarefAgil.Infra",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\obj\\",
         "projectStyle": "PackageReference",
@@ -203,8 +203,8 @@
               "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj": {
                 "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj"
               },
-              "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj"
+              "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj"
               }
             }
           }

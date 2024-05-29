@@ -1654,7 +1654,7 @@
           "bin/placeholder/TarefAgil.Dominio.dll": {}
         }
       },
-      "TarefAgil.Infa/1.0.0": {
+      "TarefAgil.Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1664,10 +1664,10 @@
           "TarefAgil.Dominio": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/TarefAgil.Infa.dll": {}
+          "bin/placeholder/TarefAgil.Infra.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TarefAgil.Infa.dll": {}
+          "bin/placeholder/TarefAgil.Infra.dll": {}
         }
       }
     }
@@ -4657,10 +4657,10 @@
       "path": "../TarefAgil.Dominio/TarefAgil.Dominio.csproj",
       "msbuildProject": "../TarefAgil.Dominio/TarefAgil.Dominio.csproj"
     },
-    "TarefAgil.Infa/1.0.0": {
+    "TarefAgil.Infra/1.0.0": {
       "type": "project",
-      "path": "../TarefAgil.Infa/TarefAgil.Infa.csproj",
-      "msbuildProject": "../TarefAgil.Infa/TarefAgil.Infa.csproj"
+      "path": "../TarefAgil.Infa/TarefAgil.Infra.csproj",
+      "msbuildProject": "../TarefAgil.Infa/TarefAgil.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4672,7 +4672,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.4",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "TarefAgil.Dominio >= 1.0.0",
-      "TarefAgil.Infa >= 1.0.0"
+      "TarefAgil.Infra >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4705,8 +4705,8 @@
             "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj": {
               "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Dominio\\TarefAgil.Dominio.csproj"
             },
-            "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infa.csproj"
+            "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\Desktop\\ProjetosPessoais\\TarefAgil\\TarefAgil.Infa\\TarefAgil.Infra.csproj"
             }
           }
         }
